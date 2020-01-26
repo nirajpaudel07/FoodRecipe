@@ -101,7 +101,7 @@ class Home extends Component {
                             <label>Ingredients</label>
                             <input type="textarea"
                                    required
-                                   placeholder='ingredients(Seperated By Commas)'
+                                   placeholder='Ingredients(Seperated By Commas)'
                                    value={this.state.newRecipe.ingredients}
                                    onChange={(event) => this.UpdateNewRecipe(this.state.newRecipe.recipeName, event.target.value.split(","),this.state.newRecipe.process)}
                             />
@@ -144,7 +144,7 @@ class Home extends Component {
 
                                 <label>Ingredients</label>
                                 <input type="textarea"
-                                       placeholder='ingredients(Seperated By Commas)'
+                                       placeholder='Ingredients(Seperated By Commas)'
                                        value={recipes[currentIndex].ingredients}
                                        onChange={(event) => this.updateIngredients(event.target.value.split(","), currentIndex)}
                                        required/>

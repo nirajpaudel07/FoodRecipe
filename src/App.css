@@ -77,7 +77,7 @@ button{
 }
 .search_box input:focus,.search_box:hover > form .search_text{
     width: 240px;
-    background-color: mintcream;
+    background-color: #ddd;
 }
 .search_box input::placeholder,.search_box input{
     color:#2f3640;

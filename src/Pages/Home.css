@@ -82,7 +82,7 @@
     align-items: center;
     border: 3px solid black;
     align-content: center;
-    background-color: white;
+    background-color: #ddd;
     width: 50em;
     height: 29em;
     z-index: 1;
@@ -93,6 +93,8 @@
     padding: 10px;
     margin: 5px 0 30px 0px;
     font-size: 15px;
+    background-color: #ddd;
+
     /*size: 50px;*/
 }
 .form_container textarea{
@@ -103,6 +105,8 @@
     margin-bottom: 6px;
     font-size: 15px;
     resize: none;
+    background-color: #ddd;
+
 }
 
 .form_container h1{
